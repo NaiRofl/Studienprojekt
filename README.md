@@ -7,10 +7,10 @@ Dieses Repository enthält den Code für mein Studienprojekt, das sich mit der A
 
 - **calculate_emissions.ipynb**: In diesem Jupyter Notebook werden die Lastdaten mit den Emissionsfaktoren aus der Datei *emission_factors.csv* kombiniert. Dabei erfolgt die Berechnung sowohl mit ortsabhängigen als auch mit ortsunabhängigen Emissionsfaktoren.
 
-- **evaluate_emissions.ipynb**: Hier werden die berechneten Emissionsdaten aus zwei verschiedenen Perspektiven aufbereitet: Einerseits wird eine länderbezogene Analyse durchgeführt, andererseits eine zeitbezogene. Die Ergebnisse werden im JSON-Format gespeichert und in die entsprechenden Ordner abgelegt:
+- **evaluate_emissions.ipynb**: Hier werden die berechneten Emissionsdaten aus zwei verschiedenen Perspektiven aufbereitet: Einerseits wird eine länderbezogene Analyse durchgeführt, andererseits eine zeitbezogene. Die Ergebnisse werden im json-Format gespeichert und in die entsprechenden Ordner abgelegt:
   - Länderbezogene Auswertung: *Evaluate_Emissions_Country* (ortsabhängig) und *Evaluate_Emissions_Country_DE* (ortsunabhängig)
   - Zeitbezogene Auswertung: *Evaluate_Emissions_Timestamp* (ortsabhängig) und *Evaluate_Emissions_Timestamp_DE* (ortsunabhängig)
 
-- **analyze_emissions**: Diese Datei enthält eine Sammlung von Funktionen zur detaillierten Analyse und Auswertung der in den JSON-Dateien gespeicherten Emissionsdaten. Mithilfe dieser Skripte werden Emissionen nach verschiedenen Kriterien untersucht, darunter zeitliche und geografische Aspekte. 
+- **analyze_emissions**: Diese Datei enthält eine Sammlung von Funktionen zur detaillierten Analyse und Auswertung der in den lson-Dateien gespeicherten Emissionsdaten. Mithilfe dieser Skripte werden Emissionen nach verschiedenen Kriterien untersucht, darunter zeitliche und geografische Aspekte. 
 
 Dieses Repository enthält somit alle relevanten Skripte und Daten zur Reproduktion und weiteren Analyse der Ergebnisse.
